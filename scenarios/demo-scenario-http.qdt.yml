@@ -15,7 +15,7 @@ steps:
   - name: Download profiles from remote git repository
     uses: qprofiles-downloader
     with:
-      source: https://raw.githubusercontent.com/Guts/qgis-deployment-cli/examples/
+      source: https://github.com/lpoaura/lpo_qgis_profiles.git
       protocol: http
 
   - name: Synchronize downloaded profiles with installed ones
