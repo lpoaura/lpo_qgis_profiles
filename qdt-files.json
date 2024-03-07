@@ -7,6 +7,22 @@
           {"type":"file","name":"logo_qgis_lpo.ico","size":227102,"time":"2023-06-13T17:02:08CEST"},
           {"type":"file","name":"splash.png","size":354451,"time":"2023-06-13T17:02:08CEST"}
       ]},
+      {"type":"directory","name":"fonts","size":4096,"time":"2023-06-13T17:02:08CEST","contents":[
+        {"type":"file","name":"LPO-Black.otf","size":227102,"time":"2023-06-13T17:02:08CEST"},
+        {"type":"file","name":"LPO-Light.otf","size":354451,"time":"2023-06-13T17:02:08CEST"},
+        {"type":"file","name":"LPO-Regular.otf","size":354451,"time":"2023-06-13T17:02:08CEST"}
+    ]},
+    {"type":"directory","name":"palettes","size":4096,"time":"2023-06-13T17:02:08CEST","contents":[
+      {"type":"file","name":"couleurs_LPO.gpl","size":227102,"time":"2023-06-13T17:02:08CEST"}
+    ]},
+    {"type":"directory","name":"composer_templates","size":4096,"time":"2023-06-13T17:02:08CEST","contents":[
+      {"type":"directory","name":"deco","size":4096,"time":"2023-06-13T17:02:08CEST","contents":[
+        {"type":"file","name":"fleche_nord.svg","size":354451,"time":"2023-06-13T17:02:08CEST"},
+        {"type":"file","name":"logo_lpo_aura.png","size":354451,"time":"2023-06-13T17:02:08CEST"}
+      ]},
+      {"type":"file","name":"lpo_paysage.qpt","size":354451,"time":"2023-06-13T17:02:08CEST"},
+      {"type":"file","name":"LPO-lpo_portrait.qpt","size":354451,"time":"2023-06-13T17:02:08CEST"}
+    ]},
         {"type":"file","name":"profile.json","size":594,"time":"2023-06-13T17:02:08CEST"},
         {"type":"directory","name":"QGIS","size":4096,"time":"2023-11-15T11:05:26CET","contents":[
           {"type":"file","name":"QGIS3.ini","size":10605,"time":"2023-11-15T11:05:26CET"},

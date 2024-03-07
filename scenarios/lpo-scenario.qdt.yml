@@ -44,12 +44,12 @@ steps:
     with:
       action: create_or_restore
       include:
-        - profile: qdt_dev
-          label: "QDT Dev"
+        - profile: dev
+          label: "Dev"
           desktop: true
           start_menu: true
-        - profile: qdt_naturaliste
-          label: "QDT Naturaliste"
+        - profile: naturaliste
+          label: "Naturaliste"
           desktop: true
           start_menu: true
 
