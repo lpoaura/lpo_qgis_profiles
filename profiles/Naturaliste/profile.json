@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
-  "name": "QDT Naturaliste",
+  "name": "qdt_naturaliste",
   "folder_name": "Naturaliste",
   "description": "QGIS profile pour les chargé.e.s de mission Naturaliste à la LPO.",
   "author": "Pole Valorisation des connaissances",

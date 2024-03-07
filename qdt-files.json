@@ -1,7 +1,7 @@
 [
   {"type":"directory","name":".","size":4096,"time":"2023-12-29T11:03:36CET","contents":[
     {"type":"directory","name":"profiles","size":4096,"time":"2023-12-22T16:14:45CET","contents":[
-      {"type":"directory","name":"Naturaliste","size":4096,"time":"2023-12-22T16:14:45CET","contents":[
+      {"type":"directory","name":"naturaliste","size":4096,"time":"2023-12-22T16:14:45CET","contents":[
         {"type":"file","name":"bookmarks.xml","size":1582,"time":"2023-11-14T17:43:43CET"},
         {"type":"directory","name":"images","size":4096,"time":"2023-06-13T17:02:08CEST","contents":[
           {"type":"file","name":"logo_qgis_lpo.ico","size":227102,"time":"2023-06-13T17:02:08CEST"},
@@ -14,7 +14,7 @@
       ]}
     ]},
       {"type":"file","name":"profiles.ini","size":34,"time":"2023-12-22T16:14:45CET"},
-      {"type":"directory","name":"Dev","size":4096,"time":"2023-12-29T10:13:27CET","contents":[
+      {"type":"directory","name":"dev","size":4096,"time":"2023-12-29T10:13:27CET","contents":[
         {"type":"file","name":"bookmarks.xml","size":1582,"time":"2023-12-22T16:14:45CET"},
         {"type":"directory","name":"images","size":4096,"time":"2023-12-22T16:14:45CET","contents":[
           {"type":"file","name":"logo_qgis_lpo.ico","size":227102,"time":"2023-12-22T16:14:45CET"},
