@@ -3,6 +3,7 @@
     {"type":"directory","name":"profiles","size":4096,"time":"2023-12-22T16:14:45CET","contents":[
       {"type":"directory","name":"naturaliste","size":4096,"time":"2023-12-22T16:14:45CET","contents":[
         {"type":"file","name":"bookmarks.xml","size":1582,"time":"2023-11-14T17:43:43CET"},
+        {"type":"file","name":"symbology-style.db","size":227102,"time":"2023-11-14T17:43:43CET"},
         {"type":"directory","name":"images","size":4096,"time":"2023-06-13T17:02:08CEST","contents":[
           {"type":"file","name":"logo_qgis_lpo.ico","size":227102,"time":"2023-06-13T17:02:08CEST"},
           {"type":"file","name":"splash.png","size":354451,"time":"2023-06-13T17:02:08CEST"}
