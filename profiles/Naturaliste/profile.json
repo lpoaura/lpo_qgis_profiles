@@ -46,13 +46,6 @@
       "version": "1.10.2"
     },
     {
-      "name": "Plugin LPO",
-      "folder_name": "plugin_qgis_lpo",
-      "official_repository": true,
-      "plugin_id": 2515,
-      "version": "0.31"
-    },
-    {
       "name": "Layers menu from project",
       "folder_name": "menu_from_project",
       "official_repository": true,
