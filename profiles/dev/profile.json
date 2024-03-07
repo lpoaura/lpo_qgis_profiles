@@ -1,7 +1,7 @@
   {
     "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
     "name": "qdt_dev",
-    "folder_name": "Dev",
+    "folder_name": "dev",
     "description": "QGIS profile pour les BG de la LPO.",
     "author": "Pole Valorisation des connaissances",
     "email": "aura.support@lpo.fr",

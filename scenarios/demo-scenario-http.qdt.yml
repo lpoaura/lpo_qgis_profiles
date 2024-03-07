@@ -43,7 +43,7 @@ steps:
           label: "QDT Dev"
           desktop: true
           start_menu: true
-        - profile: qdt_Naturaliste
+        - profile: qdt_naturaliste
           label: "QDT Naturaliste"
           desktop: true
           start_menu: true
