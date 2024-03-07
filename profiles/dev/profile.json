@@ -1,0 +1,79 @@
+{
+  {
+    "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
+    "name": "QDT Dev",
+    "folder_name": "Dev",
+    "description": "QGIS profile pour les BG de la LPO.",
+    "author": "Pole Valorisation des connaissances",
+    "email": "aura.support@lpo.fr",
+    "icon": "images/logo_qgis_lpo.ico",
+    "qgisMinimumVersion": "3.28.0",
+    "qgisMaximumVersion": "3.99.10",
+    "version": "1.0.0",
+    "plugins": [
+      {
+        "name": "Bezier Editing",
+        "folder_name": "BezierEditing",
+        "official_repository": true,
+        "plugin_id": 1719,
+        "version": "1.3.8"
+      },
+      {
+        "name": "French Locator Filter",
+        "folder_name": "french_locator_filter",
+        "official_repository": true,
+        "plugin_id": 1846,
+        "version": "1.1.0"
+      },
+      {
+        "name": "Group Stats",
+        "folder_name": "GroupStats",
+        "official_repository": true,
+        "plugin_id": 40,
+        "version": "2.2.7"
+      },
+      {
+        "name": "QField Sync",
+        "folder_name": "qfieldsync",
+        "official_repository": true,
+        "plugin_id": 1083,
+        "version": "4.8.0"
+      },
+      {
+        "name": "Mask",
+        "folder_name": "mask",
+        "official_repository": true,
+        "plugin_id": 65,
+        "version": "1.10.2"
+      },
+      {
+        "name": "Plugin LPO",
+        "folder_name": "plugin_qgis_lpo",
+        "official_repository": true,
+        "plugin_id": 2515,
+        "version": "0.31"
+      },
+      {
+        "name": "Layers menu from project",
+        "folder_name": "menu_from_project",
+        "official_repository": true,
+        "plugin_id": 43,
+        "version": "4.2.4"
+      },
+      {
+        "name": "Lizmap",
+        "folder_name": "lizmap",
+        "official_repository": true,
+        "plugin_id": 72,
+        "version": "2.1.0"
+      },
+      {
+        "name": "Spreadsheet Layers",
+        "folder_name": "SpreadsheetLayers",
+        "official_repository": true,
+        "plugin_id": 766,
+        "version": "2.1.2"
+      }
+    ]
+  }
+  
