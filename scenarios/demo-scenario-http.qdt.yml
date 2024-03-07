@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/scenario/schema.json
 
 metadata:
-  title: "Demonstration scenario of QGIS Deployment Toolbelt with HTTP"
-  id: qdt-demo-scenario-http
+  title: "NOT A DEMO BUT TRUE TEST LPO plzzz"
+  id: qdt-test-lpo
   description: >-
-    Demonstration scenario of QGIS Deployment Toolbelt that uses HTTP (without git) to download remote profiles.
+    LPO TEST.
 
 # Toolbelt settings
 settings:
@@ -37,14 +37,14 @@ steps:
   - name: Create shortcuts for profiles
     uses: shortcuts-manager
     with:
-      action: create_or_restore
+     action: create_or_restore
       include:
-        - profile: qdt_demo
-          label: "QDT - Demo profile"
+        - profile: qdt_dev
+          label: "QDT Dev"
           desktop: true
           start_menu: true
-        - profile: QDT Viewer Mode
-          label: "QDT - Viewer profile"
+        - profile: qdt_Naturaliste
+          label: "QDT Naturaliste"
           desktop: true
           start_menu: true
 

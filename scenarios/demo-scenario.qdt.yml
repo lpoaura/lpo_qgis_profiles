@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/scenario/schema.json
 
 metadata:
-  title: "Demonstration scenario of QGIS Deployment Toolbelt"
-  id: qdt-demo-scenario
+  title: "NOT A DEMO BUT TRUE TEST LPO plzzz"
+  id: qdt-test-lpo
   description: >-
-    Demonstration scenario of QGIS Deployment Toolbelt capabilities.
+    LPO TEST.
 
 # Toolbelt settings
 settings:
