@@ -1,4 +1,4 @@
-<Layout name="tettt" worldFileMap="{32fa0e46-0e32-475d-a44d-a28ced1cb5cb}" units="mm" printResolution="300">
+<Layout name="LPO portrait bleu titre simple" worldFileMap="{32fa0e46-0e32-475d-a44d-a28ced1cb5cb}" units="mm" printResolution="300">
  <Snapper snapToGrid="0" snapToGuides="1" tolerance="4" snapToItems="1"/>
  <Grid resolution="10" offsetY="0" offsetUnits="mm" resUnits="mm" offsetX="0"/>
  <PageCollection>
