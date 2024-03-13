@@ -29,3 +29,7 @@ As QDT developer, you might want to launch QGIS with this profile to edit or che
 ```sh
 qgis --profile "Viewer Mode" --profiles-path examples/
 ```
+
+VSCode extension required:
+
+- https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml
