@@ -48,8 +48,8 @@
     {
       "name": "Plugin LPO",
       "folder_name": "plugin_qgis_lpo",
-      "version": "3.2.1",
-      "repository_url_xml": "https://github.com/lpoaura/PluginQGis-LPOData/releases/latest/download/plugins.xml",
+      "version": "3.2.2",
+      "repository_url_xml": "https://github.com/lpoaura/PluginQGis-LPOData/releases/download/3.2.2/plugins.xml",
       "official_repository": false
     },
     {
