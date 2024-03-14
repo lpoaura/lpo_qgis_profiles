@@ -1,3 +1,6 @@
+# -- Tooling
+.venv
+
 # -- QDT usual patterns --
 
 # Common
@@ -8,5 +11,4 @@
 profiles/*/python/plugins/
 profiles/*/previewImages/
 *.db
-*.*~
 *.*~
