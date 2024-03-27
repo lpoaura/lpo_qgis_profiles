@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
+  "name": "mfs",
+  "folder_name": "mfs",
+  "description": "Annuaire de compétence.",
+  "author": "Pole Valorisation des connaissances",
+  "email": "aura.support@lpo.fr",
+  "icon": "images/mfs.ico",
+  "qgisMinimumVersion": "3.28.0",
+  "qgisMaximumVersion": "3.99.10",
+  "version": "1.0.0"
+}
