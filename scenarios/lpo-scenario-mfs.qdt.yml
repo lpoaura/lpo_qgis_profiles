@@ -44,11 +44,10 @@ steps:
     with:
       action: create_or_restore
       include:
-        - profile: mfs2
-          label: "mfs2"
+        - profile: MFS - Annuaire compétence
+          label: "MFS - Annuaire compétence"
           desktop: true
           start_menu: true
-
   - name: Set splash screen
     uses: splash-screen-manager
     with:
