@@ -53,7 +53,7 @@ steps:
           start_menu: false
           icon: "logo_qgis_lpo.ico"
         - profile: mfs
-          label: "MFS - Annuaire de compétence"
+          label: "MFS - Annuaire"
           desktop: true
           start_menu: true
           icon: "mfs.ico"

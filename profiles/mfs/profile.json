@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
   "name": "mfs",
   "folder_name": "mfs",
-  "description": "Annuaire de compétence.",
+  "description": "MFS - Annuaire",
   "author": "Pole Valorisation des connaissances",
   "email": "aura.support@lpo.fr",
   "icon": "images/mfs.ico",
