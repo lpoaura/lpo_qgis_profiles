@@ -31,7 +31,7 @@ steps:
     uses: qplugins-downloader
     with:
       force: false
-      threads: 5
+      threads: 3
 
   - name: Synchronize plugins
     uses: qplugins-synchronizer
@@ -47,6 +47,16 @@ steps:
           label: "QDT - Viewer profile"
           desktop: true
           start_menu: true
+        - profile: naturaliste
+          label: "Naturaliste"
+          desktop: false
+          start_menu: false
+          icon: "logo_qgis_lpo.ico"
+        - profile: mfs
+          label: "MFS - Annuaire de compétence"
+          desktop: true
+          start_menu: true
+          icon: "mfs.ico"
 
   - name: Set splash screen
     uses: splash-screen-manager
