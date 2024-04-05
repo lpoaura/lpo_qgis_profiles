@@ -48,6 +48,7 @@ steps:
           label: "MFS - Annuaire compétence"
           desktop: true
           start_menu: true
+          icon: "mfs.ico"
   - name: Set splash screen
     uses: splash-screen-manager
     with:
