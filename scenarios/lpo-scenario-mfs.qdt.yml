@@ -44,8 +44,8 @@ steps:
     with:
       action: create_or_restore
       include:
-        - profile: MFS - Annuaire compétence
-          label: "MFS - Annuaire compétence"
+        - profile: mfs
+          label: "mfs"
           desktop: true
           start_menu: true
           icon: "mfs.ico"
