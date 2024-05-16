@@ -49,7 +49,7 @@ steps:
           desktop: true
           start_menu: true
         - profile: naturaliste
-          label: "Naturaliste"
+          label: "QGIS LPO"
           desktop: true
           start_menu: true
 

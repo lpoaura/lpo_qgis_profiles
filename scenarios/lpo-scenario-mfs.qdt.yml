@@ -45,7 +45,7 @@ steps:
       action: create_or_restore
       include:
         - profile: mfs
-          label: "mfs"
+          label: "Annuaire MFS"
           desktop: true
           start_menu: true
           icon: "mfs.ico"
