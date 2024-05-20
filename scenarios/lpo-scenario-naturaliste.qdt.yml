@@ -1,17 +1,13 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/scenario/schema.json
 
 metadata:
-  title: "NOT A DEMO BUT TRUE TEST LPO plzzz"
-  id: qdt-test-lpo
+  title: "Installation QGIS Naturaliste"
+  id: qdt-lpo-naturaliste
   description: >-
-    LPO TEST.
+    scénario naturaliste LPO QGIS.
 
 # Toolbelt settings
 settings:
-  # QGIS_EXE_PATH:
-  #   linux: /usr/bin/qgis
-  #   mac: /usr/bin/qgis
-  #   windows: "%PROGRAMFILES%/QGIS/3_28/bin/qgis-ltr-bin.exe"
   SCENARIO_VALIDATION: true
 
 # Deployment workflow, step by step
@@ -44,10 +40,6 @@ steps:
     with:
       action: create_or_restore
       include:
-        - profile: dev
-          label: "Dev"
-          desktop: true
-          start_menu: true
         - profile: naturaliste
           label: "QGIS LPO"
           desktop: true
