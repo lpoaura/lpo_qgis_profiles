@@ -16,6 +16,15 @@ settings:
 
 # Deployment workflow, step by step
 steps:
+  - name: Variables d'environnement persistantes
+    uses: manage-env-vars
+    with:
+      - name: PGSERVICEFILE
+        value: $USERPROFILE/pg_service_mfs.conf
+        value_type: path
+        scope: "user"
+        action: "add"
+
   - name: Download profiles from remote git repository
     uses: qprofiles-downloader
     with:
