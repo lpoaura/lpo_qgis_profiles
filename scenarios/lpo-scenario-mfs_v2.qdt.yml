@@ -8,15 +8,19 @@ metadata:
 
 # Toolbelt settings
 settings:
-  # QGIS_EXE_PATH:
-  #   linux: /usr/bin/qgis
-  #   mac: /usr/bin/qgis
-  #   windows: "%PROGRAMFILES%/QGIS/3_28/bin/qgis-ltr-bin.exe"
   SCENARIO_VALIDATION: true
   LPO_PGSERVICE_MFS: $USERPROFILE/pg_service_mfs.conf
 
 # Deployment workflow, step by step
 steps:
+  - name: Find installed QGIS
+    uses: qgis-installation-finder
+    with:
+      version_priority:
+        - "3.34"
+        - "3.28"
+      if_not_found: error
+
   - name: Download profiles from remote git repository
     uses: qprofiles-downloader
     with:
@@ -50,6 +54,7 @@ steps:
           desktop: true
           start_menu: true
           icon: "mfs.ico"
+          additional_arguments: "--noversioncheck --skipbadlayers --project \"%APPDATA%\\QGIS\\QGIS3\\profiles\\mfs\\project_default.qgz\""
 
   - name: Set splash screen
     uses: splash-screen-manager
