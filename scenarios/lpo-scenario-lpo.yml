@@ -67,6 +67,7 @@ steps:
           label: "QGIS LPO"
           desktop: true
           start_menu: true
+          additional_arguments: "--noversioncheck --skipbadlayers"
 
   - name: Set splash screen
     uses: splash-screen-manager
