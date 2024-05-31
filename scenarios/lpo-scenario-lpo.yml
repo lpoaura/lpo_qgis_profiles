@@ -1,15 +1,15 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/scenario/schema.json
 
 metadata:
-  title: "Scenario installation Annuaire MFS"
-  id: qdt-lpo-mfs
+  title: "Scenario installation QGIS LPO et Annuaire MFS"
+  id: qdt-lpo
   description: >-
-    LPO instllation annuaire de compétences.
+    LPO QGIS installation et annuaire MFS
 
 # Toolbelt settings
 settings:
   SCENARIO_VALIDATION: true
-  LPO_PGSERVICE_MFS: $USERPROFILE/pg_service_mfs.conf
+  # LPO_PGSERVICE_MFS: $USERPROFILE/pg_service_mfs.conf
 
 # Deployment workflow, step by step
 steps:
@@ -57,6 +57,16 @@ steps:
           start_menu: true
           icon: "mfs.ico"
           additional_arguments: "--noversioncheck --skipbadlayers --project \"%APPDATA%\\QGIS\\QGIS3\\profiles\\mfs\\project_default.qgz\""
+
+  - name: Create shortcuts for profiles
+    uses: shortcuts-manager
+    with:
+      action: create_or_restore
+      include:
+        - profile: naturaliste
+          label: "QGIS LPO"
+          desktop: true
+          start_menu: true
 
   - name: Set splash screen
     uses: splash-screen-manager
