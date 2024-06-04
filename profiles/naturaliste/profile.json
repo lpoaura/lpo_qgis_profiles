@@ -67,4 +67,10 @@
       "version": "2.1.2"
     }
   ]
+  "rules": 
+  {
+   "value": "GG-GPOqgis",
+   "conditions": "in",
+   "target": "context.user.groups"
+  }
 }
