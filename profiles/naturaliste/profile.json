@@ -79,7 +79,7 @@
               "GG-GPOqgis_69",
               "GG-GPOqgis_26"
             ],
-            "operator": "contains"
+            "operator": "in"
           },
           {
             "path": "$.environment.operating_system_code",
