@@ -22,7 +22,7 @@
       "name": "Domaine",
       "description": "Restriction de diffusion sur les groupes AD",
       "conditions": {
-        "all": [
+        "any": [
           {
             "path": "$.user.groups_domain",
             "value": [
