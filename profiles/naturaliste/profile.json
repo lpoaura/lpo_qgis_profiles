@@ -75,10 +75,52 @@
         "any": [
           {
             "path": "$.user.groups_domain",
-            "value": [
-              "GG-GPOqgis_69",
-              "GG-GPOqgis_26"
-            ],
+            "value": "GG-GPOqgis_01",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_07",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_07",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_26",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_38",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_42",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_63",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_69",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_73",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_74",
             "operator": "contains"
           },
           {
