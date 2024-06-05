@@ -22,7 +22,8 @@
       "name": "Déploiement MFS",
       "description": "Restriction de diffusion sur les groupes AD",
       "path": "$.user.groups_domain",
-      "value": "GG-GPOqgis_MFS"
+      "value": "GG-GPOqgis_MFS",
+      "operator": "in"
     }
   ]
 }
