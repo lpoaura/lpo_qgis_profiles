@@ -17,10 +17,9 @@
       "plugin_id": 1846
     }
   ]
-  "rules": 
-  {
-   "value": "GG MFS",
-   "conditions": "in",
-   "target": "context.user.groups"
+  "rules": {
+    "value": "GG-GPOqgis_MFS",
+    "conditions": "in",
+    "target": "context.user.groups"
   }
 }
