@@ -75,10 +75,7 @@
         "any": [
           {
             "path": "$.user.groups_domain",
-            "value": [
-              "GG-GPOqgis_69",
-              "GG-GPOqgis_26"
-            ],
+            "value": "GG-GPOqgis_69",
             "operator": "in"
           },
           {
