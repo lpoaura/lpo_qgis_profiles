@@ -25,7 +25,10 @@
         "all": [
           {
             "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_MFS",
+            "value": [
+              "GG-GPOqgis_MFS",
+              "GG-gpo_fake"
+            ],
             "operator": "in"
           }
         ]
