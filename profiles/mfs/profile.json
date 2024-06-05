@@ -16,10 +16,13 @@
       "official_repository": true,
       "plugin_id": 1846
     }
+  ],
+  "rules": [
+    {
+      "name": "Déploiement MFS",
+      "description": "Restriction de diffusion sur les groupes AD",
+      "path": "$.user.groups_domain",
+      "value": "GG-GPOqgis_MFS"
+    }
   ]
-  "rules": {
-    "value": "GG-GPOqgis_MFS",
-    "conditions": "in",
-    "target": "context.user.groups"
-  }
 }

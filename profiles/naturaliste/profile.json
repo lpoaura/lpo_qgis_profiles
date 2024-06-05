@@ -66,11 +66,13 @@
       "plugin_id": 766,
       "version": "2.1.2"
     }
+  ],
+  "rules": [
+    {
+      "name": "Déploiement MFS",
+      "description": "Restriction de diffusion sur les groupes AD",
+      "path": "$.user.groups_domain",
+      "value": "GG-GPO_fake"
+    }
   ]
-  "rules": 
-  {
-   "value": "GG-GPOqgis",
-   "conditions": "in",
-   "target": "context.user.groups"
-  }
 }
