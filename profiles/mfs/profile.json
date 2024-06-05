@@ -29,7 +29,7 @@
               "GG-GPOqgis_MFS",
               "GG-gpo_fake"
             ],
-            "operator": "in"
+            "operator": "contains"
           }
         ]
       }
