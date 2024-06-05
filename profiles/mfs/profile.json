@@ -29,6 +29,11 @@
             "operator": "contains"
           },
           {
+            "path": "$.user.groups_domain",
+            "value": "GG-Met Managers",
+            "operator": "contains"
+          },
+          {
             "path": "$.environment.operating_system_code",
             "value": "linux",
             "operator": "equal"

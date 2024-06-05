@@ -69,10 +69,22 @@
   ],
   "rules": [
     {
-      "name": "Déploiement MFS",
-      "description": "Restriction de diffusion sur les groupes AD",
-      "path": "$.user.groups_domain",
-      "value": "GG-GPO_fake"
+      "name": "Domaine",
+      "description": "Restriction de diffusion sur les groupes AD ou OS",
+      "conditions": {
+        "any": [
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_69",
+            "operator": "contains"
+          },
+          {
+            "path": "$.environment.operating_system_code",
+            "value": "linux",
+            "operator": "equal"
+          }
+        ]
+      }
     }
   ]
 }
