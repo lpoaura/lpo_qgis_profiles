@@ -19,11 +19,17 @@
   ],
   "rules": [
     {
-      "name": "Déploiement MFS",
+      "name": "Domaine",
       "description": "Restriction de diffusion sur les groupes AD",
-      "path": "$.user.groups_domain",
-      "value": "GG-GPOqgis_MFS",
-      "operator": "in"
+      "conditions": {
+        "all": [
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_MFS",
+            "operator": "in"
+          }
+        ]
+      }
     }
   ]
 }
