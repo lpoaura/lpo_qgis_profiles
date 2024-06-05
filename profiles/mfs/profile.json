@@ -20,19 +20,17 @@
   "rules": [
     {
       "name": "Domaine",
-      "description": "Restriction de diffusion sur les groupes AD",
+      "description": "Restriction de diffusion sur les groupes AD ou OS",
       "conditions": {
         "any": [
           {
             "path": "$.user.groups_domain",
-            "value": [
-              "GG-GPOqgis_MFS"
-            ],
-            "operator": "in"
+            "value": "GG-GPOqgis_MFS",
+            "operator": "contains"
           },
           {
             "path": "$.environment.operating_system_code",
-            "value": "win32",
+            "value": "linux",
             "operator": "equal"
           }
         ]
