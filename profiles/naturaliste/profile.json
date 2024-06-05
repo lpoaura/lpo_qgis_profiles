@@ -75,8 +75,11 @@
         "any": [
           {
             "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_69",
-            "operator": "in"
+            "value": [
+              "GG-GPOqgis_69",
+              "GG-GPOqgis_26"
+            ],
+            "operator": "contains"
           },
           {
             "path": "$.environment.operating_system_code",
