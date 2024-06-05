@@ -9,7 +9,7 @@ metadata:
 # Toolbelt settings
 settings:
   SCENARIO_VALIDATION: true
-  # LPO_PGSERVICE_MFS: $USERPROFILE/pg_service_mfs.conf
+  LPO_PGSERVICE_MFS: $USERPROFILE/pg_service_mfs.conf
 
 # Deployment workflow, step by step
 steps:
@@ -67,6 +67,7 @@ steps:
           label: "QGIS LPO"
           desktop: true
           start_menu: true
+          icon: "logo_qgis_lpo.ico"
           additional_arguments: "--noversioncheck --skipbadlayers"
 
   - name: Set splash screen
