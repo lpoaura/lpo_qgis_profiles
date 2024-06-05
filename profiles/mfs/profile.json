@@ -31,11 +31,9 @@
             "operator": "in"
           },
           {
-            "path": "$.user.groups_domain",
-            "value": [
-              "GG-GGPO_fake"
-            ],
-            "operator": "in"
+            "path": "$.environment.operating_system_code",
+            "value": "win32",
+            "operator": "equal"
           }
         ]
       }
