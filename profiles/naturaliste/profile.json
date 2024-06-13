@@ -3,7 +3,7 @@
   "name": "naturaliste",
   "folder_name": "naturaliste",
   "description": "QGIS profile pour les chargé.e.s de mission Naturaliste à la LPO.",
-  "author": "Pole Valorisation des connaissances",
+  "author": "Pôle système d'information",
   "email": "aura.support@lpo.fr",
   "icon": "images/logo_qgis_lpo.ico",
   "qgisMinimumVersion": "3.28.0",
@@ -22,7 +22,7 @@
       "folder_name": "french_locator_filter",
       "official_repository": true,
       "plugin_id": 1846,
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
     {
       "name": "Group Stats",
