@@ -12,12 +12,12 @@ def openProject():
     toolBar.addWidget(countryCombo)
     countryCombo.setToolTip("Select a country")
 
-    filterButton = QPushButton("Filter")
-    filterButton.setToolTip("Filter")
+    filterButton = QPushButton("Filtrer")
+    filterButton.setToolTip("Filtrer")
     toolBar.addWidget(filterButton)
 
-    resetButton = QPushButton("Reset")
-    resetButton.setToolTip("Reset")
+    resetButton = QPushButton("Sans Filtre")
+    resetButton.setToolTip("Sans Filtre")
     toolBar.addWidget(resetButton)
 
     # We want to sort the layer by country names
