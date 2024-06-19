@@ -1,21 +1,25 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/scenario/schema.json
 
 metadata:
-  title: "NOT A DEMO BUT TRUE TEST LPO plzzz"
-  id: qdt-test-lpo
+  title: "Scenario installation QGIS LPO et Annuaire MFS"
+  id: qdt-lpo
   description: >-
-    LPO TEST.
+    LPO QGIS installation et annuaire MFS
 
 # Toolbelt settings
 settings:
-  # QGIS_EXE_PATH:
-  #   linux: /usr/bin/qgis
-  #   mac: /usr/bin/qgis
-  #   windows: "%PROGRAMFILES%/QGIS/3_28/bin/qgis-ltr-bin.exe"
   SCENARIO_VALIDATION: true
 
 # Deployment workflow, step by step
 steps:
+  - name: Find installed QGIS
+    uses: qgis-installation-finder
+    with:
+      version_priority:
+        - "3.34"
+        - "3.28"
+      if_not_found: error
+
   - name: Download profiles from remote git repository
     uses: qprofiles-downloader
     with:
@@ -23,7 +27,9 @@ steps:
       protocol: git_remote
       branch: main
 
-  - name: Download profiles from remote git repository
+  - name: >-
+      Met à jour les profils installés dans QGIS (%APPDATA%/QGIS3/profiles) 
+      à partir de la copie locale de QDT (.cache/qgis-deployment-toolbelt)
     uses: qprofiles-synchronizer
     with:
       sync_mode: overwrite
@@ -44,14 +50,24 @@ steps:
     with:
       action: create_or_restore
       include:
-        - profile: dev
-          label: "Dev"
+        - profile: mfs
+          label: "Annuaire MFS"
           desktop: true
           start_menu: true
+          icon: "mfs.ico"
+          additional_arguments: "--noversioncheck --skipbadlayers --project \"%APPDATA%\\QGIS\\QGIS3\\profiles\\mfs\\project_default.qgz\""
+
+  - name: Create shortcuts for profiles
+    uses: shortcuts-manager
+    with:
+      action: create_or_restore
+      include:
         - profile: naturaliste
-          label: "Naturaliste"
+          label: "QGIS LPO"
           desktop: true
           start_menu: true
+          icon: "logo_qgis_lpo.ico"
+          additional_arguments: "--noversioncheck --skipbadlayers"
 
   - name: Set splash screen
     uses: splash-screen-manager

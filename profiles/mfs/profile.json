@@ -8,13 +8,38 @@
   "icon": "images/mfs.ico",
   "qgisMinimumVersion": "3.28.0",
   "qgisMaximumVersion": "3.99.10",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "plugins": [
     {
       "name": "french_locator_filter",
-      "version": "1.0.4",
+      "version": "1.1.1",
       "official_repository": true,
       "plugin_id": 1846
+    }
+  ],
+  "rules": [
+    {
+      "name": "Domaine",
+      "description": "Restriction de diffusion sur les groupes AD ou OS",
+      "conditions": {
+        "any": [
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_MFS",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-Met Managers",
+            "operator": "contains"
+          },
+          {
+            "path": "$.environment.operating_system_code",
+            "value": "linux",
+            "operator": "equal"
+          }
+        ]
+      }
     }
   ]
 }

@@ -3,12 +3,12 @@
   "name": "naturaliste",
   "folder_name": "naturaliste",
   "description": "QGIS profile pour les chargé.e.s de mission Naturaliste à la LPO.",
-  "author": "Pole Valorisation des connaissances",
+  "author": "Pôle système d'information",
   "email": "aura.support@lpo.fr",
   "icon": "images/logo_qgis_lpo.ico",
   "qgisMinimumVersion": "3.28.0",
   "qgisMaximumVersion": "3.99.10",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "plugins": [
     {
       "name": "Bezier Editing",
@@ -22,7 +22,7 @@
       "folder_name": "french_locator_filter",
       "official_repository": true,
       "plugin_id": 1846,
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
     {
       "name": "Group Stats",
@@ -48,8 +48,8 @@
     {
       "name": "Plugin LPO",
       "folder_name": "plugin_qgis_lpo",
-      "version": "3.2.2",
-      "repository_url_xml": "https://github.com/lpoaura/PluginQGis-LPOData/releases/download/3.2.2/plugins.xml",
+      "version": "3.3.1",
+      "repository_url_xml": "https://github.com/lpoaura/PluginQGis-LPOData/releases/download/3.3.1/plugins.xml",
       "official_repository": false
     },
     {
@@ -65,6 +65,71 @@
       "official_repository": true,
       "plugin_id": 766,
       "version": "2.1.2"
+    }
+  ],
+  "rules": [
+    {
+      "name": "Domaine",
+      "description": "Restriction de diffusion sur les groupes AD ou OS",
+      "conditions": {
+        "any": [
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_01",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_07",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_07",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_26",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_38",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_42",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_63",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_69",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_73",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_74",
+            "operator": "contains"
+          },
+          {
+            "path": "$.environment.operating_system_code",
+            "value": "linux",
+            "operator": "equal"
+          }
+        ]
+      }
     }
   ]
 }

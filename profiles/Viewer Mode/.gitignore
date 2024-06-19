@@ -1,7 +1,0 @@
-# QGIS Profiles
-python/expressions/
-python/plugins/
-previewImages/
-*.db
-*.qgs~
-*.qgz~
