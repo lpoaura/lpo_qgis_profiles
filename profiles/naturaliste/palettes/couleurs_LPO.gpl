@@ -21,10 +21,19 @@ Columns: 4
 211   0  27	Liste rouge - CR
 251 191   0	Liste rouge - EN
 255 237   0	Liste rouge - VU
-251 242 202 Liste rouge - NT
+251 242 202	Liste rouge - NT
 120 183  74	Liste rouge - LC
 211 212 213	Liste rouge - DD
 225  79  87	FAUNE nidification certain
 225 127  78	FAUNE nidification probable
 237 224  49	FAUNE nidification possible
   5 133 201	FAUNE Absence nidification
+  0 136  91	RNR Charte - SEA GREEN
+200 212 105	RNR Charte - STRAW
+ 49 183 188	RNR Charte - MAXIMUM BLUE GREEN
+ 81 129 150	RNR Charte - TEAL BLUE
+250 187 100	RNR Charte - YELLOW ORANGE
+220 128  99	RNR Charte - COPPER CRAYOLA
+100  99  99	RNR Charte - ONYX
+206  72  67	RNR Perso - Complémentaire
+174 126 105	RNR Perso - complémentaire
