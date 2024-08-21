@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
+  "name": "aura_dev",
+  "folder_name": "aura_dev",
+  "description": "Profil développeur / géomaticien",
+  "author": "LPO Auvergne-Rhône-Alpes",
+  "email": "aura.support@lpo.fr",
+  "icon": "images/aura_dev.ico",
+  "qgisMinimumVersion": "3.28.0",
+  "qgisMaximumVersion": "3.99.10",
+  "version": "1.0.2",
+  "plugins": [
+    {
+      "name": "french_locator_filter",
+      "version": "1.1.1",
+      "official_repository": true,
+      "plugin_id": 1846
+    }
+  ],
+  "rules": [
+    {
+      "name": "Domaine",
+      "description": "Restriction de diffusion sur les groupes AD ou OS",
+      "conditions": {
+        "any": [
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_advanced_user",
+            "operator": "contains"
+          },
+          {
+            "path": "$.environment.operating_system_code",
+            "value": "linux",
+            "operator": "equal"
+          }
+        ]
+      }
+    }
+  ]
+}
