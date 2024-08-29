@@ -104,7 +104,7 @@
    </customproperties>
   </LayoutObject>
  </LayoutItem>
- <LayoutItem file="Z:/01_Modeles/CHARTE LPO/LOGOS/POUR LE WEB/LPO Auvergne-Rhône-Alpes_GAUCHE_transparent.png" resizeMode="0" outlineWidthM="1.4,mm" groupUuid="" svgFillColor="255,255,255,255" frameJoinStyle="round" visibility="1" referencePoint="0" pictureWidth="51.2973" svgBorderWidth="0.2" mapUuid="" anchorPoint="0" excludeFromExports="0" uuid="{3d2e86d8-be87-416e-8bcb-36a0accda07b}" size="55.8559,24.8285,mm" northMode="0" frame="false" background="false" northOffset="0" blendMode="0" opacity="1" zValue="24" templateUuid="{3d2e86d8-be87-416e-8bcb-36a0accda07b}" positionLock="false" position="242.851,185.37,mm" mode="1" pictureHeight="24.8285" pictureRotation="0" id="Logo" type="65640" itemRotation="0" svgBorderColor="0,0,0,255" positionOnPage="242.851,185.37,mm">
+ <LayoutItem file="@logo_gauche" resizeMode="0" outlineWidthM="1.4,mm" groupUuid="" svgFillColor="255,255,255,255" frameJoinStyle="round" visibility="1" referencePoint="0" pictureWidth="51.2973" svgBorderWidth="0.2" mapUuid="" anchorPoint="0" excludeFromExports="0" uuid="{3d2e86d8-be87-416e-8bcb-36a0accda07b}" size="55.8559,24.8285,mm" northMode="0" frame="false" background="false" northOffset="0" blendMode="0" opacity="1" zValue="24" templateUuid="{3d2e86d8-be87-416e-8bcb-36a0accda07b}" positionLock="false" position="242.851,185.37,mm" mode="1" pictureHeight="24.8285" pictureRotation="0" id="Logo" type="65640" itemRotation="0" svgBorderColor="0,0,0,255" positionOnPage="242.851,185.37,mm">
   <FrameColor blue="255" green="255" red="255" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
