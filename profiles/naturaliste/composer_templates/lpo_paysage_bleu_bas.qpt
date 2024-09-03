@@ -971,7 +971,7 @@
     <Option/>
    </customproperties>
   </LayoutObject>
-  <Extent ymin="6564723.49100874178111553" xmin="897623.11850055458489805" ymax="6567014.44608506374061108" xmax="901791.11850480583962053"/>
+  <Extent ymin="6310367" xmin="505575" ymax="6636861" xmax="1099575"/>
   <LayerSet/>
   <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
   <labelBlockingItems/>

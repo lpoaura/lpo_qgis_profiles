@@ -1,4 +1,4 @@
-<Layout printResolution="300" name="LPO paysage noir" worldFileMap="{32fa0e46-0e32-475d-a44d-a28ced1cb5cb}" units="mm">
+<Layout printResolution="300" name="lpo_paysage_bleu" worldFileMap="{32fa0e46-0e32-475d-a44d-a28ced1cb5cb}" units="mm">
  <Snapper snapToGuides="1" snapToItems="1" tolerance="4" snapToGrid="0"/>
  <Grid resUnits="mm" offsetUnits="mm" offsetY="0" resolution="10" offsetX="0"/>
  <PageCollection>
@@ -33,7 +33,7 @@
     </data_defined_properties>
    </layer>
   </symbol>
-  <LayoutItem outlineWidthM="0.3,mm" groupUuid="" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{123b764b-5837-4987-bc8a-136d3bde402d}" size="297,210,mm" frame="false" background="true" blendMode="0" opacity="1" zValue="0" templateUuid="{123b764b-5837-4987-bc8a-136d3bde402d}" positionLock="false" position="0,0,mm" id="" type="65638" itemRotation="0" positionOnPage="0,0,mm">
+  <LayoutItem outlineWidthM="0.3,mm" groupUuid="" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{4fc1623d-5679-4cd2-889a-86a22a94b2b0}" size="297,210,mm" frame="false" background="true" blendMode="0" opacity="1" zValue="0" templateUuid="{4fc1623d-5679-4cd2-889a-86a22a94b2b0}" positionLock="false" position="0,0,mm" id="" type="65638" itemRotation="0" positionOnPage="0,0,mm">
    <FrameColor blue="0" green="0" red="0" alpha="255"/>
    <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
    <LayoutObject>
@@ -82,7 +82,7 @@
   </LayoutItem>
   <GuideCollection visible="1"/>
  </PageCollection>
- <LayoutItem file="arrows/Arrow_02.svg" resizeMode="0" outlineWidthM="0.3,mm" groupUuid="" svgFillColor="98,106,110,230" frameJoinStyle="miter" visibility="1" referencePoint="0" pictureWidth="29.9103" svgBorderWidth="0.6" mapUuid="{2345710a-f198-4f1d-8c8e-9159f431d495}" anchorPoint="0" excludeFromExports="0" uuid="{5a61afda-3aee-47ca-a98e-25b24faac888}" size="33.0061,27.1779,mm" northMode="0" frame="false" background="false" northOffset="0" blendMode="0" opacity="1" zValue="40" templateUuid="{5a61afda-3aee-47ca-a98e-25b24faac888}" positionLock="false" position="33.2361,144.992,mm" mode="0" pictureHeight="27.1779" pictureRotation="0" id="Flèche du Nord" type="65640" itemRotation="0" svgBorderColor="26,26,26,255" positionOnPage="33.2361,144.992,mm">
+ <LayoutItem file="arrows/Arrow_02.svg" resizeMode="0" outlineWidthM="0.3,mm" groupUuid="" svgFillColor="98,106,110,255" frameJoinStyle="miter" visibility="1" referencePoint="0" pictureWidth="29.9103" svgBorderWidth="0.6" mapUuid="" anchorPoint="0" excludeFromExports="0" uuid="{9e17a1c7-3001-41c9-8757-25dac776f9b2}" size="33.0061,27.1779,mm" northMode="0" frame="false" background="false" northOffset="0" blendMode="0" opacity="1" zValue="37" templateUuid="{9e17a1c7-3001-41c9-8757-25dac776f9b2}" positionLock="false" position="32.4568,145.167,mm" mode="0" pictureHeight="27.1779" pictureRotation="0" id="Flèche du Nord" type="65640" itemRotation="0" svgBorderColor="26,26,26,255" positionOnPage="32.4568,145.167,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -104,7 +104,7 @@
    </customproperties>
   </LayoutObject>
  </LayoutItem>
- <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{4469fa9a-46f7-4af9-8447-e1e0bda84525}" size="50.1912,1.13779,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="17" templateUuid="{4469fa9a-46f7-4af9-8447-e1e0bda84525}" positionLock="false" position="4.83375,140.56,mm" id="" type="65643" itemRotation="0" positionOnPage="4.83375,140.56,mm">
+ <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{53e07931-10bd-474f-a3d4-c67fd704ea5d}" size="50.1912,1.13779,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="19" templateUuid="{53e07931-10bd-474f-a3d4-c67fd704ea5d}" positionLock="false" position="4.83375,141.56,mm" id="" type="65643" itemRotation="0" positionOnPage="4.83375,141.56,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -130,12 +130,12 @@
    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
     <Option type="Map">
      <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-     <Option type="QString" name="color" value="241,239,233,255"/>
+     <Option type="QString" name="color" value="255,255,255,255"/>
      <Option type="QString" name="joinstyle" value="round"/>
      <Option type="QString" name="offset" value="0,0"/>
      <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
      <Option type="QString" name="offset_unit" value="MM"/>
-     <Option type="QString" name="outline_color" value="241,239,233,255"/>
+     <Option type="QString" name="outline_color" value="255,255,255,255"/>
      <Option type="QString" name="outline_style" value="solid"/>
      <Option type="QString" name="outline_width" value="1.3"/>
      <Option type="QString" name="outline_width_unit" value="MM"/>
@@ -151,7 +151,7 @@
    </layer>
   </symbol>
  </LayoutItem>
- <LayoutItem file="Z:/01_Modeles/CHARTE LPO/LOGOS/POUR LE WEB/LPO Auvergne-Rhône-Alpes_GAUCHE_transparent.png" resizeMode="0" outlineWidthM="1.4,mm" groupUuid="" svgFillColor="255,255,255,255" frameJoinStyle="round" visibility="1" referencePoint="0" pictureWidth="51.2973" svgBorderWidth="0.2" mapUuid="" anchorPoint="0" excludeFromExports="0" uuid="{d28a61af-25b8-43e1-8097-a2184a79229e}" size="55.8559,24.8285,mm" northMode="0" frame="false" background="false" northOffset="0" blendMode="0" opacity="1" zValue="16" templateUuid="{d28a61af-25b8-43e1-8097-a2184a79229e}" positionLock="false" position="5.30813,-0.309493,mm" mode="1" pictureHeight="24.8285" pictureRotation="0" id="Logo" type="65640" itemRotation="0" svgBorderColor="0,0,0,255" positionOnPage="5.30813,-0.309493,mm">
+ <LayoutItem file="Z:/01_Modeles/CHARTE LPO/LOGOS/POUR LE WEB/LPO Auvergne-Rhône-Alpes_GAUCHE_transparent.png" resizeMode="0" outlineWidthM="1.4,mm" groupUuid="" svgFillColor="255,255,255,255" frameJoinStyle="round" visibility="1" referencePoint="0" pictureWidth="51.2973" svgBorderWidth="0.2" mapUuid="" anchorPoint="0" excludeFromExports="0" uuid="{0c0d142c-78da-407b-86ad-d6e6bb4ca734}" size="55.8559,24.8285,mm" northMode="0" frame="false" background="false" northOffset="0" blendMode="0" opacity="1" zValue="17" templateUuid="{0c0d142c-78da-407b-86ad-d6e6bb4ca734}" positionLock="false" position="5.30813,-0.309493,mm" mode="1" pictureHeight="24.8285" pictureRotation="0" id="Logo" type="65640" itemRotation="0" svgBorderColor="0,0,0,255" positionOnPage="5.30813,-0.309493,mm">
   <FrameColor blue="255" green="255" red="255" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -173,7 +173,7 @@
    </customproperties>
   </LayoutObject>
  </LayoutItem>
- <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{cf5d78ae-8278-419b-bb84-235348f4d3a7}" size="12.2298,12.4135,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="15" templateUuid="{cf5d78ae-8278-419b-bb84-235348f4d3a7}" positionLock="false" position="-0.0728664,-0.308493,mm" id="fond logo" type="65643" itemRotation="0" positionOnPage="-0.0728664,-0.308493,mm">
+ <LayoutItem outlineWidthM="0.3,mm" shapeType="0" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{72873f1b-6ff6-4a49-b40c-18abee5fda56}" size="24.4595,24.828,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="16" templateUuid="{72873f1b-6ff6-4a49-b40c-18abee5fda56}" positionLock="false" position="-0.0728664,-0.309493,mm" id="fond logo" type="65643" itemRotation="0" positionOnPage="-0.0728664,-0.309493,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -199,7 +199,7 @@
    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
     <Option type="Map">
      <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-     <Option type="QString" name="color" value="241,239,233,255"/>
+     <Option type="QString" name="color" value="255,255,250,255"/>
      <Option type="QString" name="joinstyle" value="miter"/>
      <Option type="QString" name="offset" value="0,0"/>
      <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
@@ -226,7 +226,7 @@
    </layer>
   </symbol>
  </LayoutItem>
- <LayoutItem outlineWidthM="0.3,mm" shapeType="0" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{2f9174e2-89dd-4f41-96e5-b3218ab89a1d}" size="24.4595,24.828,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="14" templateUuid="{2f9174e2-89dd-4f41-96e5-b3218ab89a1d}" positionLock="false" position="-0.0728664,-0.309493,mm" id="fond logo" type="65643" itemRotation="0" positionOnPage="-0.0728664,-0.309493,mm">
+ <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{7fe638b4-3981-41e2-9048-c845aabc69e6}" size="49.1478,24.828,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="15" templateUuid="{7fe638b4-3981-41e2-9048-c845aabc69e6}" positionLock="false" position="11.8031,-0.309493,mm" id="fond logo" type="65643" itemRotation="0" positionOnPage="11.8031,-0.309493,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -252,7 +252,7 @@
    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
     <Option type="Map">
      <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-     <Option type="QString" name="color" value="241,239,233,255"/>
+     <Option type="QString" name="color" value="255,255,250,255"/>
      <Option type="QString" name="joinstyle" value="miter"/>
      <Option type="QString" name="offset" value="0,0"/>
      <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
@@ -279,7 +279,7 @@
    </layer>
   </symbol>
  </LayoutItem>
- <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{3aae9fa9-2496-4b89-b100-620a7c807167}" size="49.1478,24.828,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="13" templateUuid="{3aae9fa9-2496-4b89-b100-620a7c807167}" positionLock="false" position="11.8031,-0.309493,mm" id="fond logo" type="65643" itemRotation="0" positionOnPage="11.8031,-0.309493,mm">
+ <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{6cc0d1f3-020a-46bc-8bd7-da1816b2456e}" size="12.2298,12.4135,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="14" templateUuid="{6cc0d1f3-020a-46bc-8bd7-da1816b2456e}" positionLock="false" position="-0.0728664,-0.308493,mm" id="fond logo" type="65643" itemRotation="0" positionOnPage="-0.0728664,-0.308493,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -305,7 +305,7 @@
    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
     <Option type="Map">
      <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-     <Option type="QString" name="color" value="241,239,233,255"/>
+     <Option type="QString" name="color" value="255,255,250,255"/>
      <Option type="QString" name="joinstyle" value="miter"/>
      <Option type="QString" name="offset" value="0,0"/>
      <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
@@ -332,7 +332,7 @@
    </layer>
   </symbol>
  </LayoutItem>
- <LayoutItem marginY="1" outlineWidthM="0.3,mm" groupUuid="" halign="1" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" valign="64" uuid="{94720326-acfe-463a-86c7-6abf6def1d87}" size="58.5249,31.9435,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="12" templateUuid="{94720326-acfe-463a-86c7-6abf6def1d87}" positionLock="false" htmlState="0" position="2.42599,174.382,mm" marginX="1" labelText="Sources :  VisioNature (Réseau LPO en Auvergne-Rhône-Alpes)&#xa;Conception :  [%@user_full_name %] (LPO Auvergne-Rhône-Alpes)&#xa;Date de réalisation : $CURRENT_DATE(yyyy-MM-dd)" id="Infos sup" type="65641" itemRotation="0" positionOnPage="2.42599,174.382,mm">
+ <LayoutItem marginY="1" outlineWidthM="0.3,mm" groupUuid="" halign="1" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" valign="64" uuid="{6836bd25-d9ec-4bd3-880e-0e7973f834cb}" size="58.5249,31.9435,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="13" templateUuid="{6836bd25-d9ec-4bd3-880e-0e7973f834cb}" positionLock="false" htmlState="0" position="2.42599,174.382,mm" marginX="1" labelText="Sources :  VisioNature (Réseau LPO en Auvergne-Rhône-Alpes)&#xa;Conception :  [%@user_full_name %] (LPO Auvergne-Rhône-Alpes)&#xa;Date de réalisation : $CURRENT_DATE(yyyy-MM-dd)" id="Infos sup" type="65641" itemRotation="0" positionOnPage="2.42599,174.382,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -347,7 +347,7 @@
     <Option/>
    </customproperties>
   </LayoutObject>
-  <text-style textOpacity="1" multilineHeight="1" fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontWordSpacing="0" namedStyle="" fontUnderline="0" multilineHeightUnit="Percentage" fontKerning="1" textOrientation="horizontal" textColor="241,239,233,255" fontItalic="0" blendMode="0" fontSizeUnit="Point" forcedItalic="0" fontWeight="50" capitalization="0" fontFamily="LPO DemiCond" allowHtml="0" fontSize="10" previewBkgrdColor="255,255,255,255" fontStrikeout="0" forcedBold="0">
+  <text-style textOpacity="1" multilineHeight="1" fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontWordSpacing="0" namedStyle="" fontUnderline="0" multilineHeightUnit="Percentage" fontKerning="1" textOrientation="horizontal" textColor="255,255,250,255" fontItalic="0" blendMode="0" fontSizeUnit="Point" forcedItalic="0" fontWeight="50" capitalization="0" fontFamily="LPO DemiCond" allowHtml="0" fontSize="10" previewBkgrdColor="255,255,255,255" fontStrikeout="0" forcedBold="0">
    <families/>
    <text-buffer bufferDraw="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferColor="255,255,255,255" bufferNoFill="1" bufferBlendMode="0" bufferSizeUnits="MM"/>
    <text-mask maskType="0" maskedSymbolLayers="" maskSize="1.5" maskSizeUnits="MM" maskOpacity="1" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskJoinStyle="128" maskEnabled="0"/>
@@ -394,7 +394,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem groupUuid="" opacity="1" uuid="{8bda84ef-731a-43dc-9834-e827e210edba}" wrapChar="" symbolAlignment="1" visibility="1" type="65642" referencePoint="0" minSymbolSize="0" splitLayer="0" id="" size="29.4,16.2,mm" symbolHeight="3" titleAlignment="1" columnCount="1" rasterBorder="1" maxSymbolSize="0" itemRotation="0" frameJoinStyle="miter" resizeToContents="1" outlineWidthM="0.3,mm" title="Légende" lineSpacing="1" symbolWidth="6" positionLock="false" boxSpace="2" zValue="11" rasterBorderWidth="0" rasterBorderColor="0,0,0,255" legendFilterByAtlas="1" columnSpace="2" frame="false" wmsLegendWidth="50" templateUuid="{8bda84ef-731a-43dc-9834-e827e210edba}" fontColor="#f1efe9" position="5.65093,30.3974,mm" excludeFromExports="0" map_uuid="{2345710a-f198-4f1d-8c8e-9159f431d495}" wmsLegendHeight="25" equalColumnWidth="0" positionOnPage="5.65093,30.3974,mm" background="false" blendMode="0">
+ <LayoutItem groupUuid="" opacity="1" uuid="{ae8e24d7-5627-4b69-8109-8c36505cdf18}" wrapChar="" symbolAlignment="1" visibility="1" type="65642" referencePoint="0" minSymbolSize="0" splitLayer="0" id="" size="29.4,16.2,mm" symbolHeight="3" titleAlignment="1" columnCount="1" rasterBorder="1" maxSymbolSize="0" itemRotation="0" frameJoinStyle="miter" resizeToContents="1" outlineWidthM="0.3,mm" title="Légende" lineSpacing="1" symbolWidth="6" positionLock="false" boxSpace="2" zValue="12" rasterBorderWidth="0" rasterBorderColor="0,0,0,255" legendFilterByAtlas="1" columnSpace="2" frame="false" wmsLegendWidth="50" templateUuid="{ae8e24d7-5627-4b69-8109-8c36505cdf18}" fontColor="#fffffa" position="5.65093,28.3974,mm" excludeFromExports="0" map_uuid="{4253216a-9cbd-44f2-86dd-0356d1645a4c}" wmsLegendHeight="25" equalColumnWidth="0" positionOnPage="5.65093,28.3974,mm" background="false" blendMode="0">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -448,7 +448,7 @@
    <custom-order enabled="0"/>
   </layer-tree-group>
  </LayoutItem>
- <LayoutItem groupUuid="" opacity="1" uuid="{2cf094ba-2206-445e-944e-0a01c11c9f2f}" style="Single Box" numSegmentsLeft="0" unitLabel="km" visibility="1" type="65646" referencePoint="0" numUnitsPerSegment="0.25" id="" size="39.5701,17.4841,mm" height="3" unitType="km" lineCapStyle="square" itemRotation="0" subdivisionsHeight="1.5" boxContentSpace="0" frameJoinStyle="miter" outlineWidthM="0.3,mm" positionLock="false" labelBarSpace="3" alignment="0" minBarWidth="30" lineJoinStyle="miter" zValue="7" numSegments="2" frame="false" segmentMillimeters="14.1453" templateUuid="{2cf094ba-2206-445e-944e-0a01c11c9f2f}" position="2.42599,165.64,mm" outlineWidth="0.3" numSubdivisions="1" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" excludeFromExports="0" maxBarWidth="70" labelHorizontalPlacement="0" positionOnPage="2.42599,165.64,mm" mapUuid="{2345710a-f198-4f1d-8c8e-9159f431d495}" background="false" blendMode="0" labelVerticalPlacement="0">
+ <LayoutItem groupUuid="" opacity="1" uuid="{54d042d1-e990-4a6c-b5e9-02d26d489230}" style="Single Box" numSegmentsLeft="0" unitLabel="km" visibility="1" type="65646" referencePoint="0" numUnitsPerSegment="0.25" id="" size="36.2564,17.4841,mm" height="3" unitType="km" lineCapStyle="square" itemRotation="0" subdivisionsHeight="1.5" boxContentSpace="0" frameJoinStyle="miter" outlineWidthM="0.3,mm" positionLock="false" labelBarSpace="3" alignment="0" minBarWidth="30" lineJoinStyle="miter" zValue="8" numSegments="2" frame="false" segmentMillimeters="12.4884" templateUuid="{54d042d1-e990-4a6c-b5e9-02d26d489230}" position="2.42599,165.64,mm" outlineWidth="0.3" numSubdivisions="1" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" excludeFromExports="0" maxBarWidth="70" labelHorizontalPlacement="0" positionOnPage="2.42599,165.64,mm" mapUuid="{4253216a-9cbd-44f2-86dd-0356d1645a4c}" background="false" blendMode="0" labelVerticalPlacement="0">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -463,7 +463,7 @@
     <Option/>
    </customproperties>
   </LayoutObject>
-  <text-style textOpacity="1" multilineHeight="1" fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontWordSpacing="0" namedStyle="" fontUnderline="0" multilineHeightUnit="Percentage" fontKerning="1" textOrientation="horizontal" textColor="241,239,233,255" fontItalic="0" blendMode="0" fontSizeUnit="Point" forcedItalic="0" fontWeight="50" capitalization="0" fontFamily="LPO Black" allowHtml="0" fontSize="10" previewBkgrdColor="255,255,255,255" fontStrikeout="0" forcedBold="0">
+  <text-style textOpacity="1" multilineHeight="1" fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontWordSpacing="0" namedStyle="" fontUnderline="0" multilineHeightUnit="Percentage" fontKerning="1" textOrientation="horizontal" textColor="255,255,250,255" fontItalic="0" blendMode="0" fontSizeUnit="Point" forcedItalic="0" fontWeight="50" capitalization="0" fontFamily="LPO Black" allowHtml="0" fontSize="10" previewBkgrdColor="255,255,255,255" fontStrikeout="0" forcedBold="0">
    <families/>
    <text-buffer bufferDraw="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferColor="255,255,255,255" bufferNoFill="1" bufferBlendMode="0" bufferSizeUnits="MM"/>
    <text-mask maskType="0" maskedSymbolLayers="" maskSize="1.5" maskSizeUnits="MM" maskOpacity="1" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskJoinStyle="128" maskEnabled="0"/>
@@ -521,8 +521,8 @@
     <Option type="invalid" name="thousand_separator"/>
    </Option>
   </numericFormat>
-  <fillColor blue="233" green="239" red="241" alpha="255"/>
-  <fillColor2 blue="206" green="135" red="1" alpha="255"/>
+  <fillColor blue="250" green="255" red="255" alpha="255"/>
+  <fillColor2 blue="26" green="26" red="26" alpha="255"/>
   <lineSymbol>
    <symbol force_rhr="0" type="line" name="" frame_rate="10" clip_to_extent="1" alpha="0" is_animated="0">
     <data_defined_properties>
@@ -682,7 +682,7 @@
     <layer class="SimpleFill" locked="0" enabled="1" pass="0">
      <Option type="Map">
       <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-      <Option type="QString" name="color" value="241,239,233,255"/>
+      <Option type="QString" name="color" value="255,255,250,255"/>
       <Option type="QString" name="joinstyle" value="bevel"/>
       <Option type="QString" name="offset" value="0,0"/>
       <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
@@ -715,7 +715,7 @@
     <layer class="SimpleFill" locked="0" enabled="1" pass="0">
      <Option type="Map">
       <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-      <Option type="QString" name="color" value="1,135,206,255"/>
+      <Option type="QString" name="color" value="26,26,26,255"/>
       <Option type="QString" name="joinstyle" value="bevel"/>
       <Option type="QString" name="offset" value="0,0"/>
       <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
@@ -737,7 +737,7 @@
    </symbol>
   </fillSymbol2>
  </LayoutItem>
- <LayoutItem marginY="0" outlineWidthM="0.3,mm" groupUuid="" halign="1" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" valign="32" uuid="{506bc5e4-e530-45be-815f-1a0b584ad801}" size="144.755,17.2165,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="6" templateUuid="{506bc5e4-e530-45be-815f-1a0b584ad801}" positionLock="false" htmlState="0" position="65.4629,2.81158,mm" marginX="0" labelText="Titre de la cartographie" id="Titre" type="65641" itemRotation="0" positionOnPage="65.4629,2.81158,mm">
+ <LayoutItem marginY="0" outlineWidthM="0.3,mm" groupUuid="" halign="1" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" valign="32" uuid="{bfad62ca-9de3-4dea-a1ae-27386c8916f8}" size="144.755,17.2165,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="6" templateUuid="{bfad62ca-9de3-4dea-a1ae-27386c8916f8}" positionLock="false" htmlState="0" position="65.4629,2.81158,mm" marginX="0" labelText="Titre de la cartographie" id="Titre" type="65641" itemRotation="0" positionOnPage="65.4629,2.81158,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -752,7 +752,7 @@
     <Option/>
    </customproperties>
   </LayoutObject>
-  <text-style textOpacity="1" multilineHeight="1" fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontWordSpacing="0" namedStyle="Black" fontUnderline="0" multilineHeightUnit="Percentage" fontKerning="1" textOrientation="horizontal" textColor="241,239,233,255" fontItalic="0" blendMode="0" fontSizeUnit="Point" forcedItalic="0" fontWeight="87" capitalization="0" fontFamily="LPO Black" allowHtml="0" fontSize="33" previewBkgrdColor="255,255,255,255" fontStrikeout="0" forcedBold="0">
+  <text-style textOpacity="1" multilineHeight="1" fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontWordSpacing="0" namedStyle="Black" fontUnderline="0" multilineHeightUnit="Percentage" fontKerning="1" textOrientation="horizontal" textColor="255,255,250,255" fontItalic="0" blendMode="0" fontSizeUnit="Point" forcedItalic="0" fontWeight="87" capitalization="0" fontFamily="LPO Black" allowHtml="0" fontSize="33" previewBkgrdColor="255,255,255,255" fontStrikeout="0" forcedBold="0">
    <families/>
    <text-buffer bufferDraw="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferColor="255,255,255,255" bufferNoFill="1" bufferBlendMode="0" bufferSizeUnits="MM"/>
    <text-mask maskType="0" maskedSymbolLayers="" maskSize="1.5" maskSizeUnits="MM" maskOpacity="1" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskJoinStyle="128" maskEnabled="0"/>
@@ -838,7 +838,7 @@
    </dd_properties>
   </text-style>
  </LayoutItem>
- <LayoutItem outlineWidthM="0.3,mm" shapeType="0" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{27dc30dc-fa2a-4871-9957-6bb01f61205c}" size="24.8797,24.8275,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="5" templateUuid="{27dc30dc-fa2a-4871-9957-6bb01f61205c}" positionLock="false" position="190.185,-0.308493,mm" id="Fond titre" type="65643" itemRotation="0" positionOnPage="190.185,-0.308493,mm">
+ <LayoutItem outlineWidthM="0.3,mm" shapeType="0" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{41ae6464-8d02-41f7-92c8-84ec80a2b081}" size="24.8797,24.8275,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="5" templateUuid="{41ae6464-8d02-41f7-92c8-84ec80a2b081}" positionLock="false" position="190.185,-0.308493,mm" id="Fond titre" type="65643" itemRotation="0" positionOnPage="190.185,-0.308493,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -864,7 +864,7 @@
    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
     <Option type="Map">
      <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-     <Option type="QString" name="color" value="51,51,50,255"/>
+     <Option type="QString" name="color" value="1,135,206,255"/>
      <Option type="QString" name="joinstyle" value="miter"/>
      <Option type="QString" name="offset" value="0,0"/>
      <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
@@ -891,7 +891,7 @@
    </layer>
   </symbol>
  </LayoutItem>
- <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{b870cdca-1794-487c-b8a0-8fd85f9e2329}" size="143.136,24.8275,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="4" templateUuid="{b870cdca-1794-487c-b8a0-8fd85f9e2329}" positionLock="false" position="61,-0.308493,mm" id="Fond titre" type="65643" itemRotation="0" positionOnPage="61,-0.308493,mm">
+ <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{9eaa4213-4d56-440c-973b-66d43eb3c987}" size="144.421,24.8275,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="4" templateUuid="{9eaa4213-4d56-440c-973b-66d43eb3c987}" positionLock="false" position="60.9509,-0.308493,mm" id="Fond titre" type="65643" itemRotation="0" positionOnPage="60.9509,-0.308493,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -917,7 +917,7 @@
    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
     <Option type="Map">
      <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-     <Option type="QString" name="color" value="51,51,50,255"/>
+     <Option type="QString" name="color" value="1,135,206,255"/>
      <Option type="QString" name="joinstyle" value="miter"/>
      <Option type="QString" name="offset" value="0,0"/>
      <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
@@ -944,7 +944,7 @@
    </layer>
   </symbol>
  </LayoutItem>
- <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{e967324f-659a-4daf-bf6e-fc2fb3c03163}" size="10.9288,13.0226,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="3" templateUuid="{e967324f-659a-4daf-bf6e-fc2fb3c03163}" positionLock="false" position="204.136,-0.308493,mm" id="Fond titre" type="65643" itemRotation="0" positionOnPage="204.136,-0.308493,mm">
+ <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{9cc8064e-dd13-499d-9ea8-bec6f6ebc390}" size="9.6923,13.0226,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="3" templateUuid="{9cc8064e-dd13-499d-9ea8-bec6f6ebc390}" positionLock="false" position="205.372,-0.308493,mm" id="Fond titre" type="65643" itemRotation="0" positionOnPage="205.372,-0.308493,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -970,7 +970,7 @@
    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
     <Option type="Map">
      <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-     <Option type="QString" name="color" value="51,51,50,255"/>
+     <Option type="QString" name="color" value="1,135,206,255"/>
      <Option type="QString" name="joinstyle" value="miter"/>
      <Option type="QString" name="offset" value="0,0"/>
      <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
@@ -997,7 +997,7 @@
    </layer>
   </symbol>
  </LayoutItem>
- <LayoutItem outlineWidthM="1.7,mm" mapFlags="0" groupUuid="" frameJoinStyle="round" visibility="1" referencePoint="0" excludeFromExports="0" isTemporal="0" uuid="{2345710a-f198-4f1d-8c8e-9159f431d495}" size="236.049,210.308,mm" frame="false" background="true" blendMode="0" opacity="1" zValue="2" templateUuid="{2345710a-f198-4f1d-8c8e-9159f431d495}" positionLock="false" position="60.9509,-0.308493,mm" drawCanvasItems="true" labelMargin="0,mm" id="Carte 1" type="65639" itemRotation="0" mapRotation="0" keepLayerSet="false" followPreset="false" followPresetName="" positionOnPage="60.9509,-0.308493,mm">
+ <LayoutItem outlineWidthM="1.7,mm" mapFlags="0" groupUuid="" frameJoinStyle="round" visibility="1" referencePoint="0" excludeFromExports="0" isTemporal="0" uuid="{4253216a-9cbd-44f2-86dd-0356d1645a4c}" size="236.049,210.308,mm" frame="false" background="true" blendMode="0" opacity="1" zValue="2" templateUuid="{4253216a-9cbd-44f2-86dd-0356d1645a4c}" positionLock="false" position="60.9509,-0.308493,mm" drawCanvasItems="true" labelMargin="0,mm" id="Carte 1" type="65639" itemRotation="0" mapRotation="0" keepLayerSet="false" followPreset="false" followPresetName="" positionOnPage="60.9509,-0.308493,mm">
   <FrameColor blue="206" green="135" red="1" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -1018,7 +1018,7 @@
     <Option/>
    </customproperties>
   </LayoutObject>
-  <Extent ymin="6564012.22391259111464024" xmin="897623.11850055458489805" ymax="6567725.7131812134757638" xmax="901791.11850480583962053"/>
+  <Extent ymin="6323393" xmin="619271" ymax="6691433" xmax="1032357"/>
   <LayerSet/>
   <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
   <labelBlockingItems/>
@@ -1027,7 +1027,7 @@
   </atlasClippingSettings>
   <itemClippingSettings forceLabelsInside="0" clipSource="" enabled="0" clippingType="1"/>
  </LayoutItem>
- <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{0b2d0e1c-4574-4352-a36c-6677dda92790}" size="102.707,210,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="1" templateUuid="{0b2d0e1c-4574-4352-a36c-6677dda92790}" positionLock="false" position="0,0,mm" id="" type="65643" itemRotation="0" positionOnPage="0,0,mm">
+ <LayoutItem outlineWidthM="0.3,mm" shapeType="1" groupUuid="" cornerRadiusMeasure="0,mm" frameJoinStyle="miter" visibility="1" referencePoint="0" excludeFromExports="0" uuid="{c40f7f2c-6b3f-49e9-a4a4-f7c2c59441d4}" size="104.09,210,mm" frame="false" background="false" blendMode="0" opacity="1" zValue="1" templateUuid="{c40f7f2c-6b3f-49e9-a4a4-f7c2c59441d4}" positionLock="false" position="0,0,mm" id="" type="65643" itemRotation="0" positionOnPage="0,0,mm">
   <FrameColor blue="0" green="0" red="0" alpha="255"/>
   <BackgroundColor blue="255" green="255" red="255" alpha="255"/>
   <LayoutObject>
@@ -1053,7 +1053,7 @@
    <layer class="SimpleFill" locked="0" enabled="1" pass="0">
     <Option type="Map">
      <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
-     <Option type="QString" name="color" value="51,51,50,255"/>
+     <Option type="QString" name="color" value="1,135,206,255"/>
      <Option type="QString" name="joinstyle" value="round"/>
      <Option type="QString" name="offset" value="0,0"/>
      <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
