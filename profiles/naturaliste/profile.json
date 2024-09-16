@@ -92,11 +92,6 @@
           },
           {
             "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_07",
-            "operator": "contains"
-          },
-          {
-            "path": "$.user.groups_domain",
             "value": "GG-GPOqgis_26",
             "operator": "contains"
           },
@@ -128,6 +123,11 @@
           {
             "path": "$.user.groups_domain",
             "value": "GG-GPOqgis_74",
+            "operator": "contains"
+          },
+          {
+            "path": "$.user.groups_domain",
+            "value": "GG-GPOqgis_admin",
             "operator": "contains"
           },
           {
