@@ -25,7 +25,7 @@
         "any": [
           {
             "path": "$.user.groups_domain",
-            "value": "GG-GPOqgis_advanced_user",
+            "value": "GG-GPOqgis_admin",
             "operator": "contains"
           },
           {
