@@ -8,14 +8,14 @@
   "icon": "images/logo_qgis_lpo.ico",
   "qgisMinimumVersion": "3.28.0",
   "qgisMaximumVersion": "3.99.10",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "plugins": [
     {
       "name": "French Locator Filter",
       "folder_name": "french_locator_filter",
       "official_repository": true,
       "plugin_id": 1846,
-      "version": "1.1.1"
+      "version": "1.3.0"
     },
     {
       "name": "Group Stats",
@@ -29,14 +29,14 @@
       "folder_name": "qfieldsync",
       "official_repository": true,
       "plugin_id": 1083,
-      "version": "v4.9.1"
+      "version": "v4.15.4"
     },
     {
       "name": "Mask",
       "folder_name": "mask",
       "official_repository": true,
       "plugin_id": 65,
-      "version": "1.10.2"
+      "version": "1.11.0"
     },
     {
       "name": "Plugin LPO",
@@ -50,7 +50,7 @@
       "folder_name": "menu_from_project",
       "official_repository": true,
       "plugin_id": 43,
-      "version": "2.1.0"
+      "version": "2.4.1"
     },
     {
       "name": "Spreadsheet Layers",
@@ -64,7 +64,7 @@
       "folder_name": "qgis_resource_sharing",
       "official_repository": true,
       "plugin_id": 1079,
-      "version": "1.1.0"
+      "version": "1.2.0"
     }
   ],
   "rules": [
