@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/profile/qgis_profile.json",
-  "name": "naturaliste",
-  "folder_name": "naturaliste",
+  "name": "paca_naturaliste",
+  "folder_name": "paca_naturaliste",
   "description": "QGIS profile pour les chargé.e.s de mission Naturaliste à la LPO PACA.",
   "author": "Pôle système d'information",
   "email": "aura.support@lpo.fr",
