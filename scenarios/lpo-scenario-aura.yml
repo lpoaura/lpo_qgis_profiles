@@ -23,9 +23,9 @@ steps:
   - name: Download profiles from remote git repository
     uses: qprofiles-downloader
     with:
-      source: https://github.com/lpoaura/lpo_qgis_profiles/tree/paca.git
+      source: https://github.com/lpoaura/lpo_qgis_profiles.git
       protocol: git_remote
-      branch: main
+      branch: paca
 
   - name: >-
       Met à jour les profils installés dans QGIS (%APPDATA%/QGIS3/profiles) 
