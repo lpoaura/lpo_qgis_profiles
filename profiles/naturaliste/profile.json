@@ -8,7 +8,7 @@
   "icon": "images/logo_qgis_lpo.ico",
   "qgisMinimumVersion": "3.28.0",
   "qgisMaximumVersion": "3.99.10",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "plugins": [
     {
       "name": "French Locator Filter",
@@ -41,8 +41,8 @@
     {
       "name": "Plugin LPO",
       "folder_name": "plugin_qgis_lpo",
-      "version": "3.5.0",
-      "repository_url_xml": "https://github.com/lpoaura/PluginQGis-LPOData/releases/download/3.5.0/plugins.xml",
+      "version": "3.5.1",
+      "repository_url_xml": "https://github.com/lpoaura/PluginQGis-LPOData/releases/download/3.5.1/plugins.xml",
       "official_repository": false
     },
     {
