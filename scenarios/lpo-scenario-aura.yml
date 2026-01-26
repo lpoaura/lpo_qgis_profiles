@@ -63,7 +63,7 @@ steps:
       action: create_or_restore
       include:
         - profile: naturaliste
-          label: "QGIS LPO"
+          label: "QGIS LPO AuRA"
           desktop: true
           start_menu: true
           icon: "logo_qgis_lpo.ico"
