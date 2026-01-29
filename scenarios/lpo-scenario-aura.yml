@@ -69,6 +69,18 @@ steps:
           icon: "logo_qgis_lpo.ico"
           additional_arguments: "--noversioncheck --skipbadlayers"
 
+  - name: Create shortcuts for profiles
+    uses: shortcuts-manager
+    with:
+      action: create_or_restore
+      include:
+        - profile: aura_dev
+          label: "QGIS Dev"
+          desktop: true
+          start_menu: true
+          icon: "logo_qgis_lpo_dev.ico"
+          additional_arguments: "--noversioncheck --skipbadlayers"
+
   - name: Set splash screen
     uses: splash-screen-manager
     with:
