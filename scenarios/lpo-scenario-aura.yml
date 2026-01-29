@@ -78,7 +78,7 @@ steps:
           label: "QGIS Dev"
           desktop: true
           start_menu: true
-          icon: "logo_qgis_lpo_dev.ico"
+          icon: "logo_qgis_dev.ico"
           additional_arguments: "--noversioncheck --skipbadlayers"
 
   - name: Set splash screen
