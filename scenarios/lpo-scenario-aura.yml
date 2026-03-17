@@ -87,9 +87,8 @@ steps:
       action: create_or_restore
       strict: false
 
-- name: Set default profile to naturaliste
+  - name: Set default profile to naturaliste
     uses: default-profile-setter
     with:
       profile: naturaliste
-# valeur à passer à 1 après MaJ QDT 0.40
-      force_profile_selection_policy: true
+      force_profile_selection_policy: 1
