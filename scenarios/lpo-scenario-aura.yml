@@ -91,4 +91,5 @@ steps:
     uses: default-profile-setter
     with:
       profile: naturaliste
-      force_profile_selection_policy: 1
+# valeur à passer à 1 après MaJ QDT 0.40
+      force_profile_selection_policy: true
