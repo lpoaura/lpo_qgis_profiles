@@ -86,3 +86,9 @@ steps:
     with:
       action: create_or_restore
       strict: false
+
+- name: Set default profile to naturaliste
+    uses: default-profile-setter
+    with:
+      profile: naturaliste
+      force_profile_selection_policy: 1
