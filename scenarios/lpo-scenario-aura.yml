@@ -1,10 +1,10 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/Guts/qgis-deployment-cli/main/docs/schemas/scenario/schema.json
+# yaml-language-server: $schema=https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/refs/heads/main/docs/schemas/scenario/qdt_scenario.json
 
 metadata:
-  title: "Scenario installation QGIS LPO et Annuaire MFS"
+  title: "Scenario installation QGIS LPO AuRA"
   id: qdt-lpo
   description: >-
-    LPO QGIS installation et annuaire MFS
+    Déploiement QGIS LPO AURA
 
 # Toolbelt settings
 settings:
@@ -16,8 +16,8 @@ steps:
     uses: qgis-installation-finder
     with:
       version_priority:
-        - "3.34"
-        - "3.28"
+        - "3.40"
+        - "3.44"
       if_not_found: error
 
   - name: Download profiles from remote git repository
