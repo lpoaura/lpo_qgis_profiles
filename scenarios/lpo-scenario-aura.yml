@@ -52,10 +52,12 @@ steps:
       include:
         - profile: naturaliste
           label: "QGIS LPO AuRA"
+          additional_arguments:
+            - --noversioncheck
+            - --skipbadlayers"
           desktop: true
           start_menu: true
           icon: "logo_qgis_lpo.ico"
-          additional_arguments: "--noversioncheck --skipbadlayers"
 
   - name: Create shortcuts for profiles
     uses: shortcuts-manager
@@ -64,10 +66,12 @@ steps:
       include:
         - profile: aura_dev
           label: "QGIS Dev"
+          additional_arguments:
+            - --noversioncheck
+            - --skipbadlayers"
           desktop: true
           start_menu: true
           icon: "logo_qgis_dev.ico"
-          additional_arguments: "--noversioncheck --skipbadlayers"
 
   - name: Set splash screen
     uses: splash-screen-manager
